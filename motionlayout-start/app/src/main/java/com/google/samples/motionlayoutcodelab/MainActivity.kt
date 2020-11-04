@@ -89,7 +89,13 @@ private val data = listOf(
         "Changes applied from step 8",
         Step8CompletedActivity::class,
         highlight = true
-    )
+    ),
+     Step("Step 9",
+     "aplicamos lo aprendido en las anteriores",
+     "random",
+     Step9Personalizada::class
+     )
+
 )
 
 class MainActivity : AppCompatActivity() {
